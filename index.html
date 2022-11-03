@@ -4,39 +4,52 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>login </title>
-		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<div class="box-container">
-			<div class="content">
-				<h1>welcome</h1>
-				<p
-					>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-					saepe excepturi quod illum tempora.
-				</p>
+		<section>
+			<div class="container">
+				<div class="grid-container">
+					<article class="section__left">
+						<ul>
+							<li><a href="#" class="orange-border">Sign in</a></li>
+							<li><a href="#">Sign up</a></li>
+						</ul>
+						<div class="text">
+							<h2 class="title">My account </h2>
+							<p class="descrip">Entez your info to login </p>
+						</div>
+						<form action="#">
+							<div class="d-flex">
+								<div class="input-group">
+									<input
+										type="email"
+										name="email"
+										id="email"
+										placeholder="Enter your email"
+									/>
+									<input
+										type="password"
+										name="password"
+										id="password"
+										placeholder="Entez your Password"
+									/>
+								</div>
+							</div>
+							<div class="input-group">
+								<input type="checkbox" name="checkbox" id="checkbox" />
+								<span> Accept the condition</span>
+							</div>
+							<button class="btn" type="button">Sign in</button>
+						</form>
+					</article>
+					<!-- RIGHT SECTION -->
+					<div class="section__right">
+						<img src="./street.jpg" alt="" class="image" />
+					</div>
+				</div>
 			</div>
-			<form action="">
-				<input
-					type="email"
-					name="email"
-					id=""
-					placeholder="Email address"
-				/>
-				<input
-					type="text"
-					name=""
-					id=""
-					required="required"
-					placeholder="Name"
-				/>
-				<button class="btn">Login</button>
-			</form>
-			<div class="sublime">
-				<span>Password</span>
-				<div class="bar"></div>
-				<span>Register</span>
-			</div>
-		</div>
+		</section>
 	</body>
 </html>
